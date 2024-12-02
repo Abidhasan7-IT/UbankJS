@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.log-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin-top: 50px;
+    flex-wrap:wrap;
+}
+.transaction{
+    display: none;
+}
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
+.deposit{
+    background-color: rgba(0, 0, 255, 0.719);
+    padding: 30px;
+    width: 400px;
+    border-radius: 5px;
+    color: white;
+}
+.withdraw{
+    background-color: rgba(255, 81, 0, 0.719);
+    padding: 30px;
+    width: 400px;
+    border-radius: 5px;
+    color: white;
+}
+.balance{
+    background-color: rgba(0, 255, 85, 0.856);
+    padding: 30px;
+    width: 400px;
+    border-radius: 5px;
+    color: white;
+}
+.bank{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+.submit-area{
+    color: rgb(4, 158, 37);
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}
